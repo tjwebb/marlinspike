@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "0.12"
+
+sudo: false
+
+deploy:
+  provider: npm
+  email: tjwebb@balderdash.co
+  api_key:
+    secure: N9PGnNWOVkHlQ15ufJei6mGnHuT0y4zGOf0eKeENBOF39Xx3F8Qf5qauErZUP60UM19GOhJ1LBhutlJjdWstkJatfAmr9XEgPLRx5R1gFMRCjvSB75FWOTbL+nhX+2O/rgF9hJknvPhh60jhRz6W6nLrfQXoMvmNUAeVqXzWfAqHrYFL1NvKSIfquCONT1mWpLRlPWoJokp9Qh0L/8QxFSkMatIe7KxRTbmZofvGqUfn0g14yClaRB023F+FYKxrPOeTNqDsrek9j5hWkI8cW6dn3oxYw40LJIjX93IPIXV+MeiZsIMal3m1diqFVWf5SnyulT5K2BXMJCsNkJwjEl/k8mIElfow5z43HTPf8idMAQQEj28WsRDyMIYWrBOy2jzUQ5PPMZfkA/1RqG5uDioorhmn0ahDTRV7BcO+7fuO2SjpbjM7fqyRVnq+1I6g6nQrCPFDmzp8u9T5hC3WUHFiDIRhq0EKaaUrLTYHvn9Mq21UGueaVykhKFR5VCePCuUQuNusW1MhZKHvcaCLf224BdnNzc6VvUGBcw9Aml+3+JWtaff0hrCOvA5HVHnoPs5uzeGjhWQP3XemyJy15QQq2Hjm6W+h7k0EkY+aCdj6Jy3M7Kh3RJoMvaCUUBDqXf1Ml/cyMrJ1cNKu5PIEStRp9lVq4uJ1vRx9J9Ut4b4=
+  on:
+    tags: true
+    repo: tjwebb/marlinspike
+    all_branches: true
