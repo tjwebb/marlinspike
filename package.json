@@ -1,0 +1,40 @@
+{
+  "name": "marlinspike",
+  "version": "0.0.0",
+  "description": "Superpowers for your Sails.js Hooks",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjwebb/marlinspike.git"
+  },
+  "keywords": [
+    "sails",
+    "sailsjs",
+    "hook",
+    "extension",
+    "plugin",
+    "models",
+    "controllers",
+    "es6"
+  ],
+  "author": "Travis Webb <tjwebb@balderdash.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwebb/marlinspike/issues"
+  },
+  "homepage": "https://github.com/tjwebb/marlinspike",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "require-all": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "sails": "^0.11.0"
+  },
+  "bundledDependencies": [
+    "babel",
+    "require-all"
+  ]
+}
