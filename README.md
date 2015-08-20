@@ -93,8 +93,8 @@ MIT
 ## Maintained By
 ##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.co)
 
-[npm-image]: https://img.shields.io/npm/v/waterline-postgresql.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/waterline-postgresql
+[npm-image]: https://img.shields.io/npm/v/marlinspike.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/marlinspike
 [ci-image]: https://img.shields.io/travis/tjwebb/marlinspike/master.svg?style=flat-square
 [ci-url]: https://travis-ci.org/tjwebb/marlinspike
 [daviddm-image]: http://img.shields.io/david/tjwebb/marlinspike.svg?style=flat-square
