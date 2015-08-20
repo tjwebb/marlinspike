@@ -1,4 +1,4 @@
-import Marlinspike from '../../'
+import Marlinspike from '../../../../'
 
 export default class TestHook extends Marlinspike {
   constructor (sails) {

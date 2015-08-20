@@ -2,7 +2,7 @@ import assert from 'assert'
 import _ from 'lodash'
 
 import Marlinspike from '../'
-import TestHook from './hooks/TestHook'
+import TestHook from './api/hooks/testhook'
 
 describe('Marlinspike', () => {
   describe('#constructor', () => {
