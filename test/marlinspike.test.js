@@ -48,7 +48,17 @@ describe('Marlinspike', () => {
 
       global.sails.after('hook:orm:loaded', function () {
         assert(global.sails.models.testmodel)
+        done()
+      })
+    })
+    it('should extend policies', done => {
+      let HookDefinition = Marlinspike.createSailsHook(TestHook)
+      let hook = HookDefinition(global.sails)
 
+      hook.configure()
+      global.sails.after('hook:http:loaded', function () {
+        assert(_.isFunction(global.sails.hooks.policies.middleware.testpolicy))
+        assert(_.isFunction(global.sails.middleware.policies.testpolicy))
         done()
       })
     })

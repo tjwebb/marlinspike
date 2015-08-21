@@ -4,7 +4,7 @@
   "description": "Superpowers for your Sails.js Hooks",
   "main": "dist/marlinspike.js",
   "scripts": {
-    "test": "mocha --reporter spec --compilers js:babel/register",
+    "test": "gulp && mocha --reporter spec --compilers js:babel/register",
     "prepublish": "gulp"
   },
   "repository": {
