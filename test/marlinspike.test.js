@@ -62,5 +62,13 @@ describe('Marlinspike', () => {
         done()
       })
     })
+    it('should extend sails.config', () => {
+      let HookDefinition = Marlinspike.createSailsHook(TestHook)
+      let hook = HookDefinition(global.sails)
+
+      hook.configure()
+
+      assert.equal(global.sails.config.testconfig.foo, 'bar')
+    })
   })
 })
