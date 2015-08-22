@@ -1,3 +1,5 @@
 export default {
-  foo: 'bar'
+  testconfig: {
+    foo: 'bar'
+  }
 }
