@@ -1,6 +1,6 @@
 {
   "name": "marlinspike",
-  "version": "0.12.10",
+  "version": "0.12.11",
   "description": "Superpowers for your Sails.js Hooks",
   "main": "dist/marlinspike.js",
   "scripts": {
