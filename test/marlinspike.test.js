@@ -70,5 +70,19 @@ describe('Marlinspike', () => {
 
       assert.equal(global.sails.config.testconfig.foo, 'bar')
     })
+    it('should merge sails.config defaults', () => {
+      global.sails.config.testconfig = {
+        foo: 'baz',
+        bar: 1
+      }
+
+      let HookDefinition = Marlinspike.createSailsHook(TestHook)
+      let hook = HookDefinition(global.sails)
+
+      hook.configure()
+
+      assert.equal(global.sails.config.testconfig.foo, 'baz')
+      assert.equal(global.sails.config.testconfig.bar, 1)
+    })
   })
 })
