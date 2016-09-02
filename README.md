@@ -90,9 +90,6 @@ export default Marlinspike.createSailsHook(CustomHook)
 ## License
 MIT
 
-## Maintained By
-##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.io)
-
 [npm-image]: https://img.shields.io/npm/v/marlinspike.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/marlinspike
 [ci-image]: https://img.shields.io/travis/tjwebb/marlinspike/master.svg?style=flat-square
