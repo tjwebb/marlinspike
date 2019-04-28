@@ -36,7 +36,8 @@
     "babel": "^5.8.21",
     "gulp-babel": "^5.2.0",
     "mocha": "^2.2.5",
-    "sails": "balderdashy/sails"
+    "sails": "balderdashy/sails",
+    "sails-hook-orm": "^1.0.9"
   },
   "bundledDependencies": [
     "lodash",
